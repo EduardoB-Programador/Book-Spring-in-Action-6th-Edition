@@ -1,10 +1,8 @@
 HELP.md
-target/classes/tacos
-target/generated-sources
-target/generated-test-sources
-target/test-classes
-target/classes/application.properties
+target/
 !.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**/target/
+!**/src/test/**/target/
 
 ### STS ###
 .apt_generated
